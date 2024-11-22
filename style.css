@@ -1,5 +1,6 @@
 body {
     background-color: white;
+    font-family: "Times New Roman", Times, serif;
 }
 
 #warning {
@@ -10,8 +11,23 @@ body {
     text-align: center;
 }
 
-#headerNav {
-    border: 1px solid lightgray;
+.iconContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.iconItem{
+    font-size: 35px;
+    margin: 0;
+    padding-right: 20px;
+}
+
+.iconItem a{
+    text-decoration: none;
+    color: black;
 }
 
 .container {
@@ -38,3 +54,6 @@ body {
 
 }
 
+#breaker {
+    border-top: 1px solid #ccc;
+}
