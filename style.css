@@ -1,3 +1,84 @@
-h1 {
-    background-color: red;
+body {
+    background-color: white;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#warning {
+    border: 10px solid black;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.iconContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.iconItem{
+    font-size: 35px;
+    margin: 0;
+    padding-right: 20px;
+}
+
+.iconItem a{
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item{
+    padding: 10px 20px ;
+}
+
+.item:hover {
+    text-decoration: underline;
+}
+
+
+.item a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+#breaker {
+    border-top: 1px solid #ccc;
+}
+
+#product1 img{
+    max-height: 190px;
+}
+
+#productContainer {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    flex-direction: row;
+}
+
+#productContainer ul {
+    list-style: none;
+}
+
+#productContainer ul li button{
+    margin-top: 15px;
+}
+
+.product {
+    list-style: none;
 }
